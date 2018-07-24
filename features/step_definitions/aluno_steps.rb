@@ -14,21 +14,21 @@ When(/^I click on Simulados$/) do
     page.all('.btn-play-simulated')[1].click
 #end
 
-#And(/^click on Começar simulado$/) do
+#And(/^click on Comecar simulado$/) do
     click_on "btn_start_mock"
 #end
 
-#When("answer to a question #loop") do
+#When(/^answer to a question$/) do
  #   5.times do
    	first('.alternative > div').click
 
 #end
 
-#And(/^answer to a question$/) do
+#And(/^click on Responder pergunta$/) do
 		click_on "btn-simulated-answer-question"
 #end
 
-#And(/^click on Responder pergunta$/) do
+#And(/^$/) do
 #end
 
 #And(/^click on Entregar simulado$/) do

@@ -11,7 +11,7 @@ Scenario: Login with valid credentials
 
 Scenario: Send new activity   
 	And click on iniciar
-	And click on Começar simulado
+	And click on Comecar simulado
     	And answer to a question
     	And click on Responder pergunta
     And click on Entregar simulado
